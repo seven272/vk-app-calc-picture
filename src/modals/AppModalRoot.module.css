@@ -1,0 +1,14 @@
+.conteiner {
+  padding: 10px;
+  font: var(--font-m);
+  text-align: justify;
+}
+
+.title {
+  font: var(--font-l);
+  text-align: center;
+}
+
+.content {
+  font: var(--font-m);
+}

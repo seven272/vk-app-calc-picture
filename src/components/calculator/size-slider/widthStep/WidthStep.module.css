@@ -1,0 +1,41 @@
+.section_slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.title {
+  font: var(--font-menu);
+  color: var(--color-black);
+  margin-right: 16px;
+  text-align: left;
+}
+
+.slider {
+  max-width: 500px;
+  width: 100%;
+}
+
+.input {
+  width: 120px;
+  margin-left: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font: var(--font-submenu);
+    text-align: left;
+  }
+
+  .input {
+    width: 60px;
+    height: 20px;
+  }
+
+  .slider {
+    max-width: 500px;
+  }
+  
+}

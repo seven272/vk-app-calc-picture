@@ -1,0 +1,25 @@
+.section_exhibitions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.title {
+  font: var(--font-menu);
+  color: var(--color-black);
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font: var(--font-submenu);
+    text-align: left;
+  }
+  .btn_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

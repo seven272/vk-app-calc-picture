@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-blue-vk);
+  text-align: center;
+  margin-top: 10px;
+  color: var(--color-blue-dark);
+}
+
+.text {
+  font: var(--font-m);
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: var(--color-white);
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,22 @@
+.section_incollection {
+  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .title {
+    font: var(--font-menu);
+    color: var(--color-black);
+    text-align: left;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font: var(--font-submenu);
+    text-align: left;
+  }
+
+}

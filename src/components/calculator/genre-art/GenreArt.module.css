@@ -1,0 +1,23 @@
+.section_genreart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.title {
+  font: var(--font-menu);
+  color: var(--color-black);
+  margin-right: 16px;
+}
+.input {
+  width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font: var(--font-submenu);
+    text-align: left;
+  }
+}

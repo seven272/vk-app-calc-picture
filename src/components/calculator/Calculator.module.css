@@ -1,0 +1,15 @@
+.section_calculator {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+.separator {
+    width: 10px;
+    display: block;
+}
+
+@media screen and (max-width: 960px) {
+  
+  }
